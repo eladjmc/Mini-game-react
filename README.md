@@ -5,6 +5,16 @@ in this game you will see an image and a description, you will need to press V i
 
 This game was build with ts-react.
 
+<hr>
+
+
+## Screenshots
+
+<img src="./src/assets/screenshots/screenshot1.png" width="900" height="500" />
+
+
+<img src="./src/assets/screenshots/screenshot2.png" width="900" height="500" />
+
 ## Available Scripts
 
 In the project directory, you can run:

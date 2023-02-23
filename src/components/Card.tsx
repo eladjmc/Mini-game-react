@@ -5,12 +5,21 @@ import falseIcon from "../assets/images/false.png";
 import "./Card.scss";
 const MAX_ANIMAL_INDEX = 9;
 interface AnimalsData {
+  scores: {
+    good: number,
+    bad: number
+  };
+  statement: boolean,
+  setScores: ({ good, bad }: {good: number, bad: number}) => void;
+  index: number;
+  handleGameOver: (isGoodPick: boolean) => void;
+  setIndex: (index: number) => void;
+  img: string;
   title: string;
-  img: any;
-  statement: boolean;
+  isGameOver: boolean;
 }
 
-const Card = (props: any) => {
+const Card = (props: AnimalsData) => {
   const handlePick = (statement: boolean) => {
     let goodPick: number = props.scores.good;
     let badPick: number = props.scores.bad;
