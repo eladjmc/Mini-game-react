@@ -1,6 +1,9 @@
-# Getting Started with Create React App
+# Match Mini Game
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is actually a small mini game.
+in this game you will see an image and a description, you will need to press V if they match or X if they dont, after 10 pictures will show it will be decided if you won the game or lost.
+
+This game was build with ts-react.
 
 ## Available Scripts
 
